@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+}
+body{
+    background:#000;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    position: relative;
+    padding: 10px 8%;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+nav .logo{
+    width: 180px;
+    cursor: pointer;
+}
+nav button{
+    border: none;
+    outline: none;
+
+}
+nav .language{
+        background: transparent;
+        border: 1px solid #cbc8c8e6;
+        font-size: 1.5rem;
+        color: #fff;
+        border-radius: 4px;
+        padding: 5px 18px;
+        margin-right: 20px;
+        font-weight: 250;
+}
+nav .signin{
+    background-color: rgb(226, 18, 18);
+    color: #fff;
+    padding: 4px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 100px;
+    font-weight: 350;
+    padding:5px 18px;
+
+}
+nav .signin:hover{
+    background-color: rgb(208, 21, 21);
+}
+.header-title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.header-title h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    max-width: 1300px;
+    margin-bottom: 20px;
+}
+.header-title h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.header-title .email-form{
+    margin:2% 0% ;
+}
+.header-title .email-form input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    width: 40%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(155, 154, 154);
+    margin-right: 7px;
+    border-radius: 4px;
+}
+.header-title .email-form input::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px 3%;
+    color: #fff;
+}
+.header-title .email-form button{
+    background-color: rgb(193, 28, 28);
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+.header-title button i{
+    padding: 0px 0px 0px 8px;
+
+}
+
+.container{
+    display: flex;
+}
+.container-title{
+    padding: 10% 8%;
+}
+.container .image{
+    margin: 5rem 12rem;
+    max-width: 100%;
+    height: 400px;
+}
+.container .container-title h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-left:20%;
+}
+.container .container-title p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-left: 20%;
+    padding-top: 3%;
+    max-width: 800px;
+}
+.container1{
+    display: flex;
+}
+.container1 .image{
+    margin: 5rem 12rem;
+    max-width: 100%;
+    height: 400px;
+}
+.container1 .container-title h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-right:10%;
+}
+
+.container1 .container-title p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-right: 20%;
+    padding-top: 3%;
+    max-width: 800px;
+}
+.minibar{
+    max-width: 100%;
+    height: 10px;
+    background-color: #222;
+}
+.faq{
+    padding: 10px 12%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.faq h1{
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.faq ul{
+    margin: 60px auto;
+    max-width: 1050px;
+    width: 100%;
+}
+.faq ul li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.faq ul li label{
+     display: flex;
+     align-items: center;
+     padding: 20px;
+     background-color: #333;
+     font-size: 1.3rem;
+     font-weight: 500;
+     cursor: pointer;
+     margin-bottom: 3px;
+     position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 35px;
+    position: absolute;
+    right: 20px;
+}
+input[type="radio"]{
+    display: none;
+}
+.faq .content{
+    background-color: #494848;
+    text-align: center;
+    padding: 0% 2%;
+    max-height: 0;
+    overflow: hidden;
+}
+.faq-title{
+    position: relative;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.faq-title p{
+    font-size: 1.4rem;
+    padding: 2%;
+}
+.faq-title .email-form input[type="email"]{
+    padding: 20px;
+}
+.faq-title.email-form{
+    margin:2% 0% ;
+}
+.faq-title .email-form input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    width: 30%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(155, 154, 154);
+    margin-right: 7px;
+    border-radius: 4px;
+}
+.faq-title .email-form input::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px 3%;
+    color: #fff;
+}
+.faq-title .email-form button{
+    background-color: rgb(193, 28, 28);
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+
+
+/* ===============================================  FOOTER  ======================================================== */
+
+footer{
+    padding: 70px 20%;
+    color: #666;
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+footer .col{
+    margin: 10px 50px;
+}
+footer .row{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+footer .col a{
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+    display: block;
+    padding: 10px;
+}
+.language{
+    background: transparent;
+    border: 2px solid #666;
+    font-size: 1rem;
+    color: #666;
+    border-radius: 3px;
+    margin-left: 60px;
+    padding: 4px;
+}
+.country{
+    padding: 20px 60px;
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+}
+i{
+    padding: 4px;
+}
