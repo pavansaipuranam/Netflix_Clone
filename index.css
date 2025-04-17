@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
-
 *{
     margin: 0;
     padding: 0;
@@ -261,8 +260,10 @@ input[type="radio"]{
 
 /* ===============================================  FOOTER  ======================================================== */
 
+
 footer{
-    padding: 70px 20%;
+    padding: 50px 15% 10px;
+    border-top: 5px solid #333;
     color: #666;
 }
 footer h1{
@@ -304,3 +305,4 @@ footer .col a{
 i{
     padding: 4px;
 }
+
